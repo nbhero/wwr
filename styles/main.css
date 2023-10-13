@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Young+Serif&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
+main section img {
+    box-sizing: border-box;
+}
 #logo-link{
     width: 80px;
+    padding-top: 5px;
 }
 nav a, ul{
     color: white;
     text-decoration: none;
     list-style-type: none;
+    text-align: center;
+    padding: 35px;
+}
+h1{
+    margin: 50px 0;
+}
+#hero-container{
+    border: 1px solid black;
 }
 #hero-msg h1, h4{
     text-align: center;
@@ -26,7 +41,14 @@ main section{
     height: 725px;
 }
 body{
-    background-color: #fcfafb;
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: #596154;
@@ -35,34 +57,60 @@ nav a:hover{
     background-color: black;
     color: #d9c2a3;
 }
+.home-title{
+    font-size: 2em;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    margin-top: 10px;
+    font-size: 2em;
+}
 .book, .join{
-    background-color: #bca38c;
+    background-color: #d9c2a3;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: black;
     color: rgb(99, 188, 248);
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 #background{
     background-color: #d9c2a2;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .msg{
-    background-color: #707465;
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
     color: white;
 }
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 footer{
-    background-color: #707465;
-    color: #d9c2a3;
+    background-color: steelblue;
+    padding: 25px 50px;
+    color: white;
+    margin-top: 200px;
 }
 footer a{
     text-decoration: none;
     color: #d9c2a3;
 }
 footer p{
+    padding: 25px;
     font-size: 1.2em;
 }
 footer p:hover{
@@ -72,4 +120,7 @@ footer a:hover{
     background-color: black;
     color: rgb(99, 188, 248);
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
 }
